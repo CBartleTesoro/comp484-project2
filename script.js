@@ -11,6 +11,14 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
     $('.feed-button').click(clickedfeedButton);
 
   
+    $('.pet-image').hover(
+      function() {
+        $(this).toggleClass('pet-hover', true);
+      },
+      function() {
+        $(this).toggleClass('pet-hover', false);
+      }
+    );
     
   })
   

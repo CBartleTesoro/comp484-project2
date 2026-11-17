@@ -46,6 +46,10 @@
     height:250px;
   }
   
+  .pet-hover { /* so i can modify the image when hovering over it with the mouse.*/
+    transform: scaleX(-1); /*Rather to change to another image, i chose to invert horizontally */
+  }
+
   .dashboard div {
     display:block;
   }
