@@ -2,7 +2,7 @@
 
 # COMP 484 Project 2
 
-This project was part of the COMP 484 project 2. Here we implemented an interactive GIGA PET. 
+This project was part of the COMP 484 project 2. Here I implemented an interactive GIGA PET. 
 
 ## Live Demo
 
