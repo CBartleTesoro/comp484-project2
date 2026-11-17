@@ -34,7 +34,7 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
     // Increase pet weight
     pet_info.weight += 4; 
     checkAndUpdatePetInfoInHtml();
-    updatePetComment("Meow!, Nom Nom Nom", "/images/stuart8.webp", "/sounds/stuartPurring.mp4");
+    updatePetComment("Meow!, Nom Nom Nom", "images/stuart8.webp", "sounds/stuartPurring.mp4");
   }
     
   function clickedPlayButton() {  
@@ -43,7 +43,7 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
     // Decrease pet weight
     pet_info.weight -= 2; 
     checkAndUpdatePetInfoInHtml();
-    updatePetComment("Meow! The mouse must die!", "/images/stuart6.webp", "/sounds/meow2s.mp4");
+    updatePetComment("Meow! The mouse must die!", "images/stuart6.webp", "sounds/meow2s.mp4");
   }
     
   function clickedExerciseButton() {
@@ -52,25 +52,25 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
     // Decrease pet happiness
     pet_info.happiness -= 10;
     checkAndUpdatePetInfoInHtml();
-    updatePetComment("Meow meow...mrrrrroooowww!", "/images/stuart3.webp", "/sounds/meow2s.mp4");
+    updatePetComment("Meow meow...mrrrrroooowww!", "images/stuart3.webp", "sounds/meow3.mp4");
   }
 
   function clickedPetButton(){ //new
     pet_info.happiness += 10;
     checkAndUpdatePetInfoInHtml();
-    updatePetComment("Purr...purr", "/images/pets2.webp", "/sounds/stuartPurring.mp4");
+    updatePetComment("Purr...purr", "images/pets2.webp", "sounds/stuartPurring.mp4");
   }
   
     
   function clickedfeedButton(){ //new
     pet_info.weight += 4;
     checkAndUpdatePetInfoInHtml();
-    updatePetComment("Nom nom nom", "/images/stuart.webp", "/sounds/meow2s.mp4");
+    updatePetComment("Nom nom nom", "images/stuart.webp", "sounds/meow2s.mp4");
   }
 
   //For the little easter egg of clicking on stuart.
   function clickedImage(){
-    updatePetComment("STARE INTO THE VOID!", "/images/stuartPOSSESED.webp", "/sounds/meow3.mp4");
+    updatePetComment("STARE INTO THE VOID!", "images/stuartPOSSESED.webp", "sounds/meow3.mp4");
   }
   
 
@@ -83,7 +83,7 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
 
     petCommentTimeout = setTimeout(function() {
      $('.pet-comment').toggleClass('is-visible', false); 
-     $('.pet-image').attr('src', '/images/stuart.webp'); 
+     $('.pet-image').attr('src', 'images/stuart.webp');
     }, 3000); // Hide the comment after 3000 ms, or 3 seconds, and then change the image back to the original.
 
 
