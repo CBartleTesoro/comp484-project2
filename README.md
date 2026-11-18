@@ -1,8 +1,7 @@
 
 
 # COMP 484 Project 2
-
-This project was part of the COMP 484 project 2. Here I implemented an interactive GIGA PET. 
+This programming project was part of the COMP 484 Project 2 assignment. The assignment focused on using HTML, CSS, JavaScript, jQuery, objects, click events, and dynamic DOM updates to create an interactive Giga Pet.
 
 ## Live Demo
 
